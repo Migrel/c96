@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+	
+    <script src="kiwitterPage.js"></script>
+</head>
+<body>
+	<div class="container">
+	<button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn btn-danger">Log Out</button>
+    <center>
+		<h1 class="header">	
+			Kiwitter	
+			<sup>
+				<img width="45px" src="https://static.vecteezy.com/system/resources/previews/008/506/558/original/kiwi-fruit-split-cartoon-png.png">
+			</sup>
+		</h1>
+		<div id="output" style="text-align: left;margin-bottom: 70px;">
+        </div>
+
+	</center>
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+	<div class="divMensagem">
+		<label>Enviar:</label>
+		<input type="text" id="msg" class="form-control" placeholder="Mensagem">
+		<br>
+		<button onclick="enviar()" class="btn btn-success">Enviar</button>
+	</div>
+</center>
+</body>
+</html>

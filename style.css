@@ -1,0 +1,27 @@
+#addRoom{
+	background-color: green;
+}
+
+#logout{
+	background-color: red;
+}
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
+.divMensagem
+{
+	position: fixed;
+	bottom: 0px;
+	padding:20px;
+	width: 100%;
+	background: rgba(3, 255, 28, 0.8);
+}
+
+
